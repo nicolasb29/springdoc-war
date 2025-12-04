@@ -39,7 +39,7 @@ jobs:
       - name: Stop container after 30 seconds
         run: |
           sleep 30
-          docker logs springapp
+          docker logs springdoc
           echo "Stoping"
           docker stop springdoc
           docker rm springdoc
